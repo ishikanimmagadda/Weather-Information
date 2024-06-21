@@ -23,8 +23,8 @@ if response.status_code == 200:
 
     description = weatherData['weather'][0]['description']
 
-    print("Temperature: " + str(maintempCelsius))
-    print("Feels Like: " + str(feelslikeCelsius))
+    print("Temperature: " + str(maintempCelsius) + "C")
+    print("Feels Like: " + str(feelslikeCelsius) + "C")
     print("Wind Speed: " + str(windSpeed))
     print("Description: " + str(description))
 else: 
